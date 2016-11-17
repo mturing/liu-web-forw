@@ -1,0 +1,10 @@
+.head-div{
+	width: 100px;
+	height: 100px;
+}
+.left-area{
+	background: url('../img/left-bc.png');
+	height: 100%;
+	overflow-x: hidden;
+	background-size: cover;
+}
