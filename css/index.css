@@ -1,10 +1,67 @@
-.head-div{
-	width: 100px;
-	height: 100px;
+.head-div {
+    width: 100px;
+    height: 100px;
+    margin-top: 45%;
+    margin-bottom: 20px;
 }
-.left-area{
-	background: url('../img/left-bc.png');
-	height: 100%;
-	overflow-x: hidden;
-	background-size: cover;
+
+.left-area {
+    background: url('../img/left-bc.png');
+    height: 100%;
+    overflow-x: hidden;
+    background-size: cover;
+    margin: 0;
+}
+
+.sp-p {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+ul.num_a2 {
+    width: 12px;
+    position: absolute;
+    top: 10%;
+    right: 20px;
+    background: url(../img/controbg.png) no-repeat top center;
+}
+ul{list-style:none;margin:0;padding:0;}
+ul.num_a2 li {
+
+    width: 12px;
+    height: 12px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+ul.num_a2 .current {
+    color: #4D4D4F;
+    background-color: #4d4d4f;
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+}
+
+ul.num_a2 a {
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+    border-radius: 50%;
+    text-indent: -70px;
+    color: #808285;
+    background-color: #808285;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: -webkit-transform 0.5s ease, background-color 0.5s ease;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+ul.num_a2 a:hover{
+	color: #4D4D4F;
+    background-color: #4d4d4f;
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+}
+.time-area .affix
+{
+top:30%;
 }

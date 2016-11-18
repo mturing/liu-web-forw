@@ -7,42 +7,134 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="famework/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <script type="text/javascript" src="famework/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="famework/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/card.css">
+    <link rel="stylesheet" type="text/css" href="famework/ripple/ripple.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style type="text/css">
+    .material-ripple {
+        width: 150px;
+    }
+    
+    .material-ripple > span {
+        position: relative;
+        display: block;
+        padding: 15px 25px;
+    }
+    </style>
 </head>
 
 <body>
-	<div class="container-fluid">
-	
-    <div class="row">
-        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 left-area">
-            <div class="container-fluid">
-            	<div class="head img-circle">
-                	<img src="img/rose-head.jpg" class="head-div img-circle">
-            	</div>
-				<div class="left-info">
-					<p>Turing</p>
-					<p>some thing is happing</p>
-				</div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 left-area text-center " data-spy="affix">
+                <div class="container-fluid">
+                    <img src="img/rose-head.jpg" class="head-div img-circle img-responsive center-block">
+                    <div class="left-info sp-p">
+                        <p>Turing</p>
+                        <p>some thing is happing</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-            <div class="container-fluid">
-
+            <div class="right-area">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                </div>
+                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                    <div class="clearfix"></div>
+                    <div class="container-fluid">
+                        <div class="material-ripple" data-ripple-color="#3498db">
+                            <span>My Account</span>
+                        </div>
+                        <div class="content-main">
+                            <div id="11-11">
+                                <div class="material-card material-shadow-2 card-inner material-hover ">
+                                    <img src="img/card1.jpg" alt="" class="img">
+                                    <p>cofe or beautiful girl</p>
+                                    <p>2016-11-11</p>
+                                </div>
+                                <div class="material-card material-shadow-2 card-inner material-hover">
+                                    <img src="img/card1.jpg" alt="" class="img">
+                                    <p>cofe or beautiful girl</p>
+                                    <p>2016-11-08</p>
+                                </div>
+                                <div class="material-card material-card-la material-shadow-2 material-hover card-inner">
+                                    <img src="img/card1.jpg" alt="" class="img">
+                                    <p>cofe or beautiful girl</p>
+                                    <p>2016-11-08</p>
+                                </div>
+                                <div class="material-card material-card-la material-shadow-2 material-hover">
+                                    <img src="img/card1.jpg" alt="" class="img">
+                                    <p>cofe or beautiful girl</p>
+                                    <p>2016-11-08</p>
+                                </div>
+                                <div class="material-card material-card-la material-shadow-2 material-hover">
+                                    <img src="img/card1.jpg" alt="" class="img">
+                                    <p>cofe or beautiful girl</p>
+                                    <p>2016-11-11</p>
+                                </div>
+                            </div>
+                            <div id="11-12">
+                            <div class="material-card material-card-la material-shadow-2 material-hover card-inner">
+                                <img src="img/card1.jpg" alt="" class="img">
+                                <p>cofe or beautiful girl</p>
+                                <p>2016-11-12</p>
+                            </div>
+                            <div class="material-card material-card-la material-shadow-2 material-hover">
+                                <img src="img/card1.jpg" alt="" class="img">
+                                <p>cofe or beautiful girl</p>
+                                <p>2016-11-08</p>
+                            </div>
+                            <div class="material-card material-card-la material-shadow-2 material-hover">
+                                <img src="img/card1.jpg" alt="" class="img">
+                                <p>cofe or beautiful girl</p>
+                                <p>2016-11-12</p>
+                            </div>
+                            </div>
+                            <div class="11-18" id="11-18">
+                                <div class="material-card material-card-la material-shadow-2 material-hover card-inner">
+                                    <img src="img/card1.jpg" alt="" class="img">
+                                    <p>cofe or beautiful girl</p>
+                                    <p>2016-11-18</p>
+                                </div>
+                                <div class="material-card material-card-la material-shadow-2 material-hover card-inner">
+                                    <img src="img/card1.jpg" alt="" class="img">
+                                    <p>cofe or beautiful girl</p>
+                                    <p>2016-11-18</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                </div>
+            </div>
+            <div class="time-area">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" data-spy="affix" id="">
+                    <div class="time-bar">
+                        <div class="time-bar">
+                            <ul id="deconum2" class="num_a2 center-block">
+                                <li><a href="#11-11" hidefocus="true" target="_self" class="current">16-11-18</a></li>
+                                <li><a href="#11-12" hidefocus="true" target="_self" class="">16-11-19</a></li>
+                                <li><a href="#11-18" hidefocus="true" target="_self" class="">16-11-20</a></li>
+                                <li><a href="javascript:void(0)" hidefocus="true" target="_self" class="">16-11-21</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-	</div>
+    </div>
+    <script type="text/javascript" src="famework/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="famework/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="famework/ripple/ripple.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/timezou.js"></script>
 </body>
 
 </html>

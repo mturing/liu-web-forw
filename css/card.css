@@ -1,0 +1,20 @@
+.material-card{
+ 	width: 140px;
+    min-height: 140px;
+    margin: 0;
+}
+.material-card .img{
+	width: 140px;
+	height: 100px;
+}
+.material-card-la{
+	width: 295px;
+	min-height: 250px;
+}
+.material-card-la .img{
+	width: 295px;
+	height: 200px;
+}
+.card-inner{
+	display: inline-block;
+}
